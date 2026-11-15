@@ -301,7 +301,7 @@ p {
         padding: 10px 15px;
         font-size: 14px;
         border-left: none;
-        border-bottom: 3px solid transparent; 
+        border-bottom: 3px solid transparent;
     }
 
     .nav-btn.activo {
@@ -313,19 +313,15 @@ p {
         margin-left: 0;
     }
 
-    .seccion {
-        padding: 20px 15px;
+    .seccion, .contenedor {
+        padding: 20px 15px; 
     }
 
-    .contenedor {
-        padding: 20px 15px;
-    }
-
-    .hero-uanl, .hero-gobierno, .hero-empresas {
+    .hero-ternium, .hero-banorte, .hero-lenovo {
         padding: 120px 15px;
     }
 
-    .hero-uanl h1, .hero-gobierno h1, .hero-empresas h1 {
+    .hero-ternium h1, .hero-banorte h1, .hero-lenovo h1 {
         font-size: 28px;
     }
 
