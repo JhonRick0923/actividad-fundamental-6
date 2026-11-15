@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas Profesionales TI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="app-layout">
+        <nav class="sidebar">
+            <h2 class="sidebar-titulo"><i class="fas fa-briefcase"></i> Portafolio TI</h2>
+            <div class="nav-menu">
+                <button class="nav-btn activo" onclick="mostrarSeccion('inicio')"><i class="fas fa-home"></i> Inicio</button>
+                <button class="nav-btn" onclick="mostrarSeccion('ternium')"><i class="fas fa-industry"></i> Ternium</button>
+                <button class="nav-btn" onclick="mostrarSeccion('banorte')"><i class="fas fa-university"></i> Banorte</button>
+                <button class="nav-btn" onclick="mostrarSeccion('lenovo')"><i class="fas fa-laptop"></i> Lenovo</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section id="inicio" class="seccion activa">
+                <div class="contenedor">
+                    <h1>Actividad Fundamental 6: Portafolio de Prácticas Profesionales</h1>
+                    <p>En esta página web he documentado el análisis de tres de las empresas más importantes en el ámbito tecnológico e industrial de la región. El objetivo es evaluar mis opciones preferidas para realizar prácticas profesionales en el periodo Agosto - Diciembre 2027.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h2>Empresas Objetivo</h2>
+                    <table id="tabla-empresas" class="tabla-minimalista tabla-oculta">
+                        <thead>
+                            <tr>
+                                <th>Imagen Representativa</th>
+                                <th>Nombre de la Empresa</th>
+                                <th>Sector / Giro Principal</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila-animada">
+                                <td><img src="images/ternium_logo.png" alt="Logo de Ternium" class="img-empresa"></td>
+                                <td><strong>Ternium México</strong></td>
+                                <td>Industria Siderúrgica, Acero y Automatización 4.0</td>
+                                <td><button class="boton-accion" onclick="mostrarSeccion('ternium')"><i class="fas fa-search"></i> Ver Análisis</button></td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td><img src="images/banorte_logo.png" alt="Logo de Banorte" class="img-empresa"></td>
+                                <td><strong>Grupo Banorte</strong></td>
+                                <td>Banca, Finanzas, Seguridad de la Información y Base de Datos</td>
+                                <td><button class="boton-accion" onclick="mostrarSeccion('banorte')"><i class="fas fa-search"></i> Ver Análisis</button></td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td><img src="images/lenovo_logo.png" alt="Logo Lenovo" class="img-empresa"></td>
+                                <td><strong>Lenovo</strong></td>
+                                <td>Tecnología de Hardware, Servidores y Redes Empresariales</td>
+                                <td><button class="boton-accion" onclick="mostrarSeccion('lenovo')"><i class="fas fa-search"></i> Ver Análisis</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="ternium" class="seccion">
+                <div class="contenedor hero-ternium">
+                    <h1>Ternium México</h1>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Giro de la empresa</h3>
+                    <p>Ternium es una empresa líder en la industria siderúrgica en América Latina, dedicada a la producción y procesamiento de acero. En la actualidad, su giro ha evolucionado hacia la Industria 4.0, integrando procesos de automatización, análisis de datos industriales, y tecnologías de la información aplicadas directamente a las líneas de manufactura.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Historia</h3>
+                    <p>Ternium tiene profundas raíces en el estado de Nuevo León. Su historia local está fuertemente ligada a la fundación de Hylsa (Hojalata y Lámina S.A.) en 1942, pionera en el proceso de reducción directa de hierro. En 2005, mediante la consolidación de varias acereras latinoamericanas, nace oficialmente Ternium. Hoy en día, cuentan con plantas industriales de clase mundial, como la ubicada en el municipio de Pesquería y la histórica planta de San Nicolás, frente a la UANL.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Por qué lo elegiría para hacer mis prácticas profesionales</h3>
+                    <p>Como estudiante de 5.º semestre de la carrera de Ingeniería en Administración y Sistemas (IAS) en la Facultad de Ingeniería Mecánica y Eléctrica (FIME) de la Universidad Autónoma de Nuevo León (UANL), tengo como meta principal realizar mis prácticas profesionales en el futuro periodo Enero - Junio 2027. Ternium me resulta sumamente atractiva debido a su sólido y estructurado programa de becarios.</p>
+                    <p>Me entusiasma enormemente la posibilidad de aplicar y potenciar mis conocimientos técnicos en un entorno industrial real. Cuento con habilidades en el desarrollo backend utilizando Java y Python, manejo de bases de datos SQLite y fundamentos sólidos gracias a mi preparación académica. Creo firmemente que la integración de estos conocimientos técnicos con mi perfil administrativo de IAS encaja perfectamente en los sistemas de mejora continua y control operativo que Ternium busca en sus practicantes.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Vacantes en el ámbito de TI</h3>
+                    <table class="tabla-minimalista tabla-oculta">
+                        <thead>
+                            <tr>
+                                <th>Puesto Solicitado</th>
+                                <th>Conocimientos / Herramientas</th>
+                                <th>Modalidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila-animada">
+                                <td>Prácticas Profesionales Feb-Jun 2027 (Sistemas / TI)</td>
+                                <td>Estudiante activo a partir de 5° semestre, Promedio mín. 85, Inglés intermedio-avanzado</td>
+                                <td>Presencial / San Nicolás de los Garza</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Programa Global Trainee - TI y Mejora Continua</td>
+                                <td>Egresados o próximos a graduarse (menos de 3 años de exp.), Agilidad, Liderazgo</td>
+                                <td>Rotación en Plantas Industriales</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Practicante de Proyectos y Análisis de Datos</td>
+                                <td>Desarrollo de proyectos autónomos, Análisis de información, Mejora de procesos operativos</td>
+                                <td>Presencial / Monterrey y Área Metropolitana</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://mx.ternium.com/es/carrera#conoce-ternium" target="_blank" class="hipervinculo-oficial" onclick="confirmarSalida(event, 'Ternium')"><i class="fas fa-external-link-alt"></i> Visitar la bolsa de trabajo oficial de Ternium</a>
+                    </div>
+                </div>
+                
+                <div class="navegacion-seccion">
+                    <button class="boton-accion" onclick="mostrarSeccion('inicio')"><i class="fas fa-arrow-left"></i> Inicio</button>
+                    <button class="boton-accion" onclick="mostrarSeccion('banorte')">Siguiente <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </section>
+
+            <section id="banorte" class="seccion">
+                <div class="contenedor hero-banorte">
+                    <h1>Grupo Financiero Banorte</h1>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Giro de la empresa</h3>
+                    <p>Grupo Financiero Banorte pertenece al sector de banca y finanzas. Es una de las instituciones financieras más grandes y sólidas de México. El giro tecnológico dentro del banco es crítico, abarcando desde la protección de datos y ciberseguridad, hasta la modernización de aplicaciones móviles y gestión de gigantescas bases de datos transaccionales.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Historia</h3>
+                    <p>Fundado en 1899 en la ciudad de Monterrey, Nuevo León, bajo el nombre de Banco Mercantil de Monterrey. Después de fusiones importantes a lo largo del siglo XX (notablemente con Banco Regional del Norte), se consolidó como Banorte. Hoy en día se enorgullece de ser "El Banco Fuerte de México", siendo la institución financiera líder sin control extranjero y con una fuerte inversión en innovación digital.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Por qué lo elegiría para hacer mis prácticas profesionales</h3>
+                    <p>Como estudiante de 5.º semestre de IAS en la UANL, considero que el sector financiero es uno de los más retadores y enriquecedores para mi carrera. Mi interés por integrarme a Banorte en el periodo Enero - Junio 2027 surge de la enorme necesidad que tienen los bancos de gestionar grandes volúmenes de información de manera rápida y, sobre todo, segura.</p>
+                    <p>Quiero poner a prueba y expandir mis habilidades en la estructuración de bases de datos (trabajando con entornos como SQLite para escalar a arquitecturas mayores), así como aplicar mi lógica de desarrollo backend con Java y Python para la optimización de procesos internos. Trabajar en Banorte me permitiría entender la arquitectura detrás de una banca digital líder y adentrarme más en la cultura DevOps aplicada a los servicios financieros.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Vacantes en el ámbito de TI</h3>
+                    <table class="tabla-minimalista tabla-oculta">
+                        <thead>
+                            <tr>
+                                <th>Puesto Solicitado</th>
+                                <th>Conocimientos / Herramientas</th>
+                                <th>Modalidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila-animada">
+                                <td>Programa Talento Joven (Prácticas) - Analista Gobierno de Datos</td>
+                                <td>Estudiantes de Ingeniería en Sistemas o afín, manejo de SQL, normalización y análisis de bases de datos</td>
+                                <td>Presencial / Monterrey</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Becario de Soluciones Operativas y Seguridad TI</td>
+                                <td>Conocimientos en redes, sistemas operativos, gestión de incidentes y control de accesos lógicos</td>
+                                <td>Híbrido / Monterrey y San Pedro</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Practicante de Desarrollo Empresarial y Sistemas</td>
+                                <td>Estudiante a partir de 5° semestre, lógica de programación (Backend), optimización y mejora continua de procesos</td>
+                                <td>Presencial / Monterrey Sur</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://empleos.banorte.com/" target="_blank" class="hipervinculo-oficial" onclick="confirmarSalida(event, 'Banorte')"><i class="fas fa-external-link-alt"></i> Visitar la bolsa de trabajo oficial de Banorte</a>
+                    </div>
+                </div>
+                
+                <div class="navegacion-seccion">
+                    <button class="boton-accion" onclick="mostrarSeccion('ternium')"><i class="fas fa-arrow-left"></i> Anterior</button>
+                    <button class="boton-accion" onclick="mostrarSeccion('lenovo')">Siguiente <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </section>
+
+            <section id="lenovo" class="seccion">
+                <div class="contenedor hero-lenovo">
+                    <h1>Lenovo Monterrey</h1>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Giro de la empresa</h3>
+                    <p>Lenovo es un gigante multinacional en el sector de la tecnología de la información. Se dedica al diseño, manufactura y comercialización de ordenadores personales, servidores, dispositivos de almacenamiento y soluciones de red (hardware y software), brindando infraestructura para centros de datos de nivel mundial.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Historia</h3>
+                    <p>Fundada en 1984 en Pekín, Lenovo adquirió gran relevancia internacional cuando compró la división de ordenadores personales de IBM en 2005. En el estado de Nuevo León, Lenovo estableció en Apodaca una de sus plantas de manufactura de servidores y centros de datos más importantes del mundo, inaugurada a finales de la década de 2000, desde donde se exporta equipo a todo el continente.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Por qué lo elegiría para hacer mis prácticas profesionales</h3>
+                    <p>Mi formación técnica actual incluye fundamentos en la certificación CCNA 1, lo cual ha despertado en mí un fuerte interés por la infraestructura y conectividad. Como futuro egresado de la carrera de Ingeniería en Administración y Sistemas (IAS) en la Facultad de Ingeniería Mecánica y Eléctrica (FIME) de la Universidad Autónoma de Nuevo León (UANL), veo en Lenovo el escenario perfecto para llevar a cabo mis prácticas en Enero - Junio 2027.</p>
+                    <p>Lenovo representa una oportunidad ideal para sumergirme en el hardware, las redes corporativas y el soporte técnico de alto nivel. La posibilidad de colaborar con equipos globales, aplicar mis bases en redes (CCNA 1) y combinarlo con conocimientos de programación backend (Python/Java) para automatizar diagnósticos o tareas administrativas, es un reto que me motiva profundamente a buscar una posición dentro de sus instalaciones.</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Vacantes en el ámbito de TI</h3>
+                    <table class="tabla-minimalista tabla-oculta">
+                        <thead>
+                            <tr>
+                                <th>Puesto Solicitado</th>
+                                <th>Conocimientos / Herramientas</th>
+                                <th>Modalidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fila-animada">
+                                <td>Estudiante / Practicante de Redes e Infraestructura (Data Center)</td>
+                                <td>Estudiante de 5° semestre en adelante, bases de redes (CCNA), soporte a servidores y hardware corporativo, Inglés intermedio</td>
+                                <td>Presencial / Planta Apodaca</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Project Management Intern (Mejora Continua y TI)</td>
+                                <td>Inglés avanzado, Excel intermedio, metodologías ágiles, administración de recursos operativos y seguimiento de proyectos</td>
+                                <td>Híbrido / Apodaca</td>
+                            </tr>
+                            <tr class="fila-animada">
+                                <td>Becario de Automatización de Pruebas y Software</td>
+                                <td>Lógica de programación (Python, Java), manejo de bases de datos, interés en crear scripts para optimizar procesos de manufactura</td>
+                                <td>Presencial / Planta Apodaca</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://jobs.lenovo.com/es_ES/careers" target="_blank" class="hipervinculo-oficial" onclick="confirmarSalida(event, 'Lenovo')"><i class="fas fa-external-link-alt"></i> Visitar la bolsa de trabajo oficial de Lenovo</a>
+                    </div>
+                </div>
+                
+                <div class="navegacion-seccion">
+                    <button class="boton-accion" onclick="mostrarSeccion('banorte')"><i class="fas fa-arrow-left"></i> Anterior</button>
+                    <button class="boton-accion" onclick="mostrarSeccion('inicio')">Inicio <i class="fas fa-home"></i></button>
+                </div>
+            </section>
+
+            <footer class="pie-pagina">
+                <p>Estudiante: Ian Karim Ávila González | Matrícula: 2117490 | Carrera: IAS | Programación Web | FIME - UANL | Hora: N5 Grupo 002</p>
+            </footer>
+
+        </main>
+    </div>
+</body>
+</html>
